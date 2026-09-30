@@ -4,5 +4,6 @@ public class SavingsInterest {
         Scanner a = new Scanner(System.in);
         System.out.println("Enter deposit amount (UGX): ");
         int deposit = a.nextInt();
+        double InterestRate = 0.055;
     }
 }
