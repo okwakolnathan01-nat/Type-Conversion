@@ -10,5 +10,11 @@ public class SavingsInterest {
         double Total = deposit + Interest;
 
         long RoundedInterest = (long) Interest;
+
+        System.out.println("---MANAGEMENT ACCOUNTING REPORT---");
+        System.out.println("Initial Deposit : UGX "+deposit);
+        System.out.println("Interest : UGX "+ Interest);
+        System.out.println("Rounded Interest: UGX "+ RoundedInterest);
+        System.out.println("Total: UGX "+ Total);
     }
 }
