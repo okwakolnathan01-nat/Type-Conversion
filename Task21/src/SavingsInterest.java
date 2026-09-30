@@ -7,5 +7,6 @@ public class SavingsInterest {
         double InterestRate = 0.055;
 
         double Interest = deposit * InterestRate;
+        double Total = deposit + Interest;
     }
 }
