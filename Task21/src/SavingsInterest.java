@@ -8,5 +8,7 @@ public class SavingsInterest {
 
         double Interest = deposit * InterestRate;
         double Total = deposit + Interest;
+
+        long RoundedInterest = (long) Interest;
     }
 }
